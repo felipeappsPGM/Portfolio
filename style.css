@@ -1,8 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    height: 100vh;
     background-color: black;
     color: #f6f6f6;
 }
 
-strong {
+.titulo-destaque {
     color: #22d4fd;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
 }
