@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-principal: #000000;
+    --cor-sec: #f6f6f6;
+    --cor-ter: #22d4fd;
+
+    --fonte-principal: 'Krona One', sans-serif;
+    --fonte-sencundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-principal);
+    color: var(--cor-sec);
+}
+
+header {
+    padding: 2% 0 0 8%;
+}
+
+nav {
+    display: flex;
+    gap: 80px;
+}
+
+nav a {
+    font-family: var(--fonte-sencundaria);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--cor-ter);
+    text-decoration: none;
+}
+
+.titulo-destaque {
+    color: #22d4fd;
+}
+
+.apresentacao {
+    padding: 5% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo h1 {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+}
+
+.conteudo p {
+    font-size: 24px;
+    font-family: var(--fonte-sencundaria);
+    font-weight: 400;
+}
+
+#conteudo {
+    gap: 0px;
+}
+
+#conteudo h2 {
+    margin: 40px 0;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.botoes h2,
+section h2 {
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+}
+
+.botoes a {
+    width: 368px;
+    color: var(--cor-sec);
+    text-align: center;
+    padding: 21.5px 0;
+    font-size: 24px;
+    font-family: var(--fonte-sencundaria);
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid var(--cor-ter);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.botoes a:hover {
+    cursor: pointer;
+    background-color: #272727;
+}
+
+footer {
+    color: #000000;
+    background-color: var(--cor-ter);
+    padding: 24px 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--fonte-sencundaria);
+    font-weight: 400px;
+}
